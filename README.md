@@ -5,7 +5,7 @@
 
 ## Publico dirigido 👨‍👩‍👧‍👦 
 * Adultos
-* Adolecentes _**bajo responsabilidad de adulto**_
+* Adolecentes: _**bajo responsabilidad de adulto**_
 
 
 ## Nuestra Innovacion ✨
