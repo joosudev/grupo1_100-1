@@ -16,7 +16,7 @@ Presentamos una función revolucionaria en nuestro sitio web: la creación y ges
 - Milagros Díaz
 - Yaneika Nieto: Futura Licenciada En Ingenieneria y operaciones logistica empresarial, mi hobbit es hacer turismo interno, como fortaleza puedo mencionar que soy una persona con facilidad para trabajar en equipo y responsable, de la programación me gusta la parte de aprender a solucionar problemas, principal situaciones de logica e ingenio.
 - Ruando Deane
-- Vladimir Willians
+- Vladimir Willians: Licdo. en Informatica,como hobbit me gusta leer, ver tv, hacer deporte, como fortaleza tengo el esforzarme y exigirme para dar lo mejor de mi siempre, de la programación me gusta todo.
 
 ## | Sitios Web de Referencia 🌐
 1. [Walmart](https://www.walmart.com/)
