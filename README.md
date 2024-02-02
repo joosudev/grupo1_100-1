@@ -14,7 +14,7 @@ Presentamos una función revolucionaria en nuestro sitio web: la creación y ges
 ## Integrantes 👨‍💻 👩‍💻
 - Joanie Cuevas
 - Milagros Díaz
-- Yaneika Nieto
+- Yaneika Nieto: Futura Licenciada En Ingenieneria y operaciones logistica empresarial, mi hobbit es hacer turismo interno, como fortaleza puedo mencionar que soy una persona con facilidad para trabajar en equipo y responsable, de la programación me gusta la parte de aprender a solucionar problemas, principal situaciones de logica e ingenio.
 - Ruando Deane
 - Vladimir Willians
 
