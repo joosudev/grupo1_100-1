@@ -13,7 +13,7 @@ Presentamos una función revolucionaria en nuestro sitio web: la creación y ges
 
 ## Integrantes 👨‍💻 👩‍💻
 - Joanie Cuevas
-- Milagros Díaz
+- Milagros Díaz:Estudiante de licenciatura de Empresas Marítimas, mi hobbit es Leer,  Mi 2 fortalezas son persistencia y empatía, de la programacion de gusta que he podido aprender mucho de como se ven las paginas wed desde su backend, Y asi puedo entender como funciona todo.
 - Yaneika Nieto: Futura Licenciada En Ingenieneria y operaciones logistica empresarial, mi hobbit es hacer turismo interno, como fortaleza puedo mencionar que soy una persona con facilidad para trabajar en equipo y responsable, de la programación me gusta la parte de aprender a solucionar problemas, principal situaciones de logica e ingenio.
 - Ruando Deane
 - Vladimir Willians: Licdo. en Informatica,como hobbit me gusta leer, ver tv, hacer deporte, como fortaleza tengo el esforzarme y exigirme para dar lo mejor de mi siempre, de la programación me gusta todo.
