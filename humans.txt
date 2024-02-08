@@ -1,0 +1,15 @@
+/* TEAM */
+Analista programador de Sistema:Vladimir Willians, Ruando Dean
+Desarrolladores Web: Vladimir Willians, Ruando Dean, Mily Diaz, Joanie Cuevas, Yaneika Nieto
+Diseñador Gráfico: Vladimir Willians, Mily Diaz.
+Obtencion de recursos: Mily Diaz, Yaneika Nieto, Joanie Cuevas.
+
+/* AGRADECIMIENTOS ESPECIALES */
+Agradecimientos: A todos los colaboradores que constribuyen al desarrollo de este sitio.
+
+/* TECNOLOGÍAS */
+Tecnologías: HTML5, CSS3, JavaScript
+Plataforma: Visual Studio Code.
+
+/* LICENCIA */
+Licencia: Este sitio está bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.

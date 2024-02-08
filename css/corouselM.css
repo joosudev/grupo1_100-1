@@ -1,0 +1,35 @@
+.carousel-section {
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    transition: transform 0.5s ease; /* Agregamos una transición suave */
+}
+
+.carousel-item:last-child {
+    margin-right: 0;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto; /* Ajustamos la altura para evitar que las imágenes se corten */
+}
+
+/* Estilos para dispositivos mayores a 760px de ancho */
+@media screen and (min-width: 760px) {
+    .carousel {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .carousel-item {
+        margin-right: 20px; /* Ajustamos el margen derecho */
+    }
+}

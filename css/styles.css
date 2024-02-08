@@ -1,0 +1,1115 @@
+:root {
+  --colornumero1: #019382;
+  --colornumero2: #4fd190;
+  --colornumero3: #ffb762;
+  --colornumero4: #ff9459;
+  --fuentePrincipal:"Roboto", "Arial", sans-serif;
+  --fuenteSecundaria:"Just Me Again Down Here", cursive;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Just+Me+Again+Down+Here&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+/**header */
+
+.div-header{
+    background-color: var(--colornumero1);
+    padding: -80px;
+}
+
+.totalnone{
+    display: none; /**ocultando el total alado del carrito */
+}
+
+/* contenido del header */
+.header-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -26px;
+    margin-left: 18%;
+}
+
+.header-titulo {
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.span-titulo{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.carrito {
+    position: relative;
+    margin-left: 50px; /* Ajusta el margen izquierdo del carrito */
+}
+
+.iconCarrito {
+    font-size: 22px;
+}
+
+.iconUser {
+    font-size: 30px !important;
+    margin-left: 10px;
+}
+
+.link-iconoUser{
+    text-decoration: none;
+    color: black;
+}
+
+.contador {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #333;
+    color: white;
+    font-size: 12px; /* Ajusta el tamaño del contador */
+    padding: 3px 6px; /* Ajusta el espaciado del contador */
+    border-radius: 50%;
+}
+/**header */
+
+/**carousel de imagenes */
+.carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .slide {
+    width: 100%;
+    height: auto;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .prev {
+    left: 10px;
+  }
+  .next {
+    right: 10px;
+  }
+
+.arrow-next{
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+.arrow-prevent{
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+/**Carousel de imagenes */
+
+/**main */
+main{
+    display: flex;
+}
+
+/**Titulo y refran */
+.titulo-refran *{
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-refran hr {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+  }
+
+.titulo-sitio{
+    font-family: var(--fuenteSecundaria);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulo-refran{
+  background-color:#C70176;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.titulo-refran h1 {
+    color: white;
+    font-size: 36px; /* Tamaño de fuente ajustado */
+  }
+
+.subtitulo-sitio{
+    position: relative;
+    top: -10px;
+    color:white;
+    font-style: italic;
+    font-family: var(--fuenteSecundaria);
+}
+/**Titulo y refran */
+
+/**section rapiBuy */
+.section-rapiBuy{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-rapiBuy img{
+    width: 42vw;
+    height: 42vw;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+/**section rapiBuy */
+
+/**pasillos titulo */
+.div-titulo-pasillo {
+  text-align: center;
+  background-color: #C70176; /* Fondo rojo */
+  width: 90%; /* Ancho del div al 100% */
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 10px;
+}
+.titulo-pasillo {
+  font-family: var(--fuenteSecundaria);
+  color: white; /* Texto blanco */
+  font-size: 2em; /* Tamaño del texto */
+  margin: 0 auto; /* Elimina el margen por defecto */
+  padding: 10px; /* Añade un poco de espacio alrededor del texto */
+}
+/**pasillos titulo */
+
+/**section cajas pasillos */
+
+.section-pasillos a{
+  text-decoration: none;
+}
+
+.caja-pasillo {
+  margin: 0 auto;
+  width: 90%;
+  height: 100px;
+  margin-bottom: 15px;
+  overflow: hidden; /* Para ocultar cualquier desbordamiento de la imagen */
+}
+
+.caja-pasillo img {
+  width: 85px; /* Establecer el ancho de la imagen al 100% del contenedor */
+  height: 85px; /* Establecer la altura de la imagen al 100% del contenedor */
+  object-fit: cover; /* Para ajustar la imagen al contenedor */
+  display: block; /* Para asegurar que la imagen no tenga ningún espacio adicional */
+  margin-left: 65%;
+  margin-top: 5px;
+}
+
+.aseoPersonal-cFondo{
+  background-color:#0156F0;
+}
+.caja-pasillo  .aseo-personal {
+  position: relative;
+  top: -70px;
+  left: 30px;
+  font-weight: bold;
+  font-family: var(--fuenteSecundaria);
+  font-size: 22px;
+  background-color: #ffffffe3;
+  color:#0156F0;
+  padding: 2px;
+  width: 150px;
+}
+
+.bedidas-cFondo{
+  background-color: #ca3441;
+}
+
+.caja-pasillo .bebidas{
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-weight: bold;
+  font-family: var(--fuenteSecundaria);
+  font-size: 22px;
+  background-color: #ffffffe3;
+  color:#D02835;
+  padding: 2px;
+  width: 110px;
+}
+
+.especies-cFondo{
+  background-color:#BB7E5E;
+}
+
+.caja-pasillo .especies{
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-weight: bold;
+  font-family: var(--fuenteSecundaria);
+  font-size: 22px;
+  background-color: #ffffffe3;
+  color:#BB7E5E;
+  padding: 2px;
+  width: 114px;
+}
+
+.enlatados-cFondo{
+  background-color: #49956D;
+}
+
+.caja-pasillo .enlatados{
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-weight: bold;
+  font-family: var(--fuenteSecundaria);
+  font-size: 22px;
+  background-color: #ffffffe3;
+  color:#49956D;
+  padding: 2px;
+  width: 145px;
+}
+
+.lacteos-cFondo{
+  background-color: #368AC3;
+}
+
+.caja-pasillo .lactetos{
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-weight: bold;
+  font-family: var(--fuenteSecundaria);
+  font-size: 22px;
+  background-color: #ffffffe3;
+  color:#368AC3;
+  padding: 2px;
+  width: 113px;
+}
+
+.bebe-cFondo{
+  background-color: #955710;
+}
+
+.caja-pasillo .bebe{
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-weight: bold;
+  font-family: var(--fuenteSecundaria);
+  font-size: 22px;
+  background-color: #ffffffe3;
+  color:#955710;
+  padding: 2px;
+  width: 70px;
+}
+
+.caja-pasillo:hover img{
+  transition: transform 0.3s ease; /* Transición suave */
+  transform: scale(1.1); /* Efecto de escala al hacer hover */
+}
+
+.caja-pasillo:hover p{
+  transition: transform 0.3s ease; /* Transición suave */
+  transform: scale(1.1); /* Efecto de escala al hacer hover */
+}
+/**section cajas pasillos */
+
+/**section frescos */
+
+/**titulo frescos */
+.div-especialista-frescso {
+  text-align: center;
+  background-color: #503803; /* Fondo rojo */
+  width: 90%; /* Ancho del div al 100% */
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 10px;
+}
+.especialista-en-frescos{
+  font-family: var(--fuenteSecundaria);
+  color: #E8F1F6; /* Texto blanco */
+  font-size: 2em; /* Tamaño del texto */
+  margin: 0 auto; /* Elimina el margen por defecto */
+  padding: 10px; /* Añade un poco de espacio alrededor del texto */
+}
+/**titulo frescos */
+
+/**img Frescos */
+.div-frescos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.div-frescos img{
+  width: 42vw;
+  height: 42vw;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+/**img Frescos */
+
+/**Section Descripcion */
+.div-descripcion{
+  padding: 20px;
+  background-color: var(--colornumero1);
+}
+
+.subtitulo-descripcion{
+  font-family: var(--fuenteSecundaria);
+  font-size: 1.3rem;
+  color:black;
+  margin-left: 20px;
+  margin-top: 8px;
+  width: 75%;
+}
+
+.img-descrip{
+  height: 42vh;
+  width: 42vh;
+  margin-left: 20px;
+}
+
+.parrafo-descripcion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 9px;
+  margin-left: 20px;
+  text-align: justify;
+  width: 80%;
+}
+/**section Descripcion */
+
+/**Tenemos tus marcas favoritas */
+.div-tus-marcaFavoritas {
+  text-align: center;
+  background-color: #C70176; /* Fondo rojo */
+  width: 90%; /* Ancho del div al 100% */
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 10px;
+}
+.tus-marcas-favoritas{
+  font-family: var(--fuenteSecundaria);
+  color: #E8F1F6; /* Texto blanco */
+  font-size: 2em; /* Tamaño del texto */
+  margin: 0 auto; /* Elimina el margen por defecto */
+  padding: 10px; /* Añade un poco de espacio alrededor del texto */
+}
+/**tenemos tus marcas favoritas*/
+
+/*referen*/
+.section-servicio {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.div-clicDeDistancia,
+.div-unahora,
+.div-maximaDisponibilidad {
+  flex: 1; /* Para que ocupen el mismo espacio */
+  text-align: center; /* Para centrar el contenido */
+}
+
+.div-clicDeDistancia img,
+.div-unahora img,
+.div-maximaDisponibilidad img {
+  max-width: 100%; /* Para asegurar que las imágenes no se desborden */
+}
+
+.section-servicio h4{
+  font-family: var(--fuenteSecundaria);
+}
+
+.section-servicio p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para el footer */
+.footer {
+  background-color: #019382;
+  padding: 20px; /* Padding fijo en píxeles */
+  color: #fff; /* Texto en color blanco para contraste */
+  text-align: center;
+}
+
+/* Estilo para el logo en el footer */
+.logo-footer img {
+  width: 100px; /* Tamaño específico para el ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilo para los párrafos del footer */
+.footer p {
+  color: black;
+  font-weight: bold;
+  margin: 10px 0; 
+  line-height: 1.5; 
+  font-size: 16px; 
+}
+
+/* Estilo para el enlace del correo */
+.footer a {
+  color: #fff; /* Color del enlace */
+  text-decoration: none; /* Quitamos subrayado */
+}
+
+/* Estilo para el enlace del correo al pasar el ratón */
+.footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Media query para pantallas más grandes footer */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 40px; /* Aumentamos el padding en pantallas más grandes */
+  }
+  .logo-footer img {
+    width: 150px; /* Ajustamos el tamaño del logo para pantallas más grandes */
+  }
+  .footer p {
+    font-size: 24px; /* Ajustamos el tamaño del texto para pantallas más grandes */
+  }
+}
+
+/** media query375 */
+
+@media (min-width:375px) {
+  /*body{
+    background-color: #D02835;
+  }
+  */
+  .header-titulo {
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.span-titulo{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.carrito {
+    position: relative;
+    margin-left: 90px; /* Ajusta el margen izquierdo del carrito */
+}
+
+.iconCarrito {
+    font-size: 22px;
+}
+
+.iconUser {
+    font-size: 30px !important;
+    margin-left: 10px;
+}
+
+.link-iconoUser{
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+@media(min-width:768px){
+  
+.header-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -26px;
+    margin-left: 10%;
+}
+
+.header-titulo {
+    font-family: var(--fuentePrincipal);
+    font-size: 32px;
+}
+
+.span-titulo{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.carrito {
+    position: relative;
+    margin-left: 55%; /* Ajusta el margen izquierdo del carrito */
+}
+
+.iconCarrito {
+    font-size: 28px;
+}
+
+.iconUser {
+    font-size: 34px !important;
+    margin-left: 10px;
+}
+
+.subtitulo-sitio{
+  font-size: 24px;
+}
+
+.section-rapiBuy img{
+  width: 20vw;
+  height: 20vw;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.caja-pasillo {
+  display: inline-block;
+  position: relative;
+  left: 80px;
+  margin: 0 auto;
+  width: 40%;
+  height: 100px;
+  margin-bottom: 15px;
+  overflow: hidden; /* Para ocultar cualquier desbordamiento de la imagen */
+}
+
+.div-frescos img{
+  width: 300px;
+  height: 25vw;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.subtitulo-descripcion{
+  font-family: var(--fuenteSecundaria);
+  font-size: 32px;
+  color:black;
+  margin-left: 158px;
+}
+
+.img-descrip{
+  height: 42vh;
+  width: 525px;
+  margin-left: 120px;
+}
+
+.parrafo-descripcion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-left: 155px;
+  text-align: justify;
+  width: 63%;
+}
+
+.section-servicio h4{
+  font-size: 24px;
+}
+
+.section-servicio p{
+  font-size: 20px;
+}
+
+.logo-footer img{
+  width: 360px;
+  height: 200px;
+}
+
+.footer-info p{
+  font-size: 28px;
+}
+
+}
+
+@media(min-width:800px){
+  .img-descrip{
+    height: 42vh;
+    width: 535px;
+    margin-left: 128px;
+  } 
+}
+
+@media(min-width:820px){
+  .img-descrip{
+    height: 42vh;
+    width: 525px;
+    margin-left: 135px;
+  } 
+}
+
+@media(min-width:884px){
+
+.subtitulo-descripcion{
+  font-family: var(--fuenteSecundaria);
+  font-size: 32px;
+  color:black;
+  margin-left: 190px;
+}
+
+.img-descrip{
+  height: 42vh;
+  width: 525px;
+  margin-left: 165px;
+}
+
+.parrafo-descripcion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-left: 170px;
+  text-align: justify;
+  width: 63%;
+}
+}
+
+@media(min-width:1200px){
+
+.header-titulo {
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: -40px;
+}
+
+.span-titulo{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.carrito {
+    position: relative;
+    margin-left: 800px; /* Ajusta el margen izquierdo del carrito */
+}
+
+.iconCarrito {
+    font-size: 22px;
+}
+
+.iconUser {
+    font-size: 30px !important;
+    margin-left: 10px;
+}
+
+.link-iconoUser{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+  /**carousel de imagenes */
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px; /* Puedes ajustar este valor según tus necesidades */
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Asegura que el contenedor de slides ocupe el 100% del carousel */
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Escala las imágenes para que se ajusten al contenedor sin distorsión */
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .arrow-next,
+  .arrow-prevent {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+/**Carousel de imagenes */
+
+.section-rapiBuy img{
+  margin-left: 12px;
+}
+
+.caja-pasillo {
+  display: inline-block;
+  position: relative;
+  left: 130px;
+  margin: 0 auto;
+  width: 40%;
+  height: 100px;
+  margin-bottom: 15px;
+  overflow: hidden; /* Para ocultar cualquier desbordamiento de la imagen */
+}
+
+.div-frescos img{
+  width: 600px;
+  height: 200px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.subtitulo-descripcion{
+  font-family: var(--fuenteSecundaria);
+  font-size: 32px;
+  color:black;
+  margin-left: 320px;
+}
+
+
+.img-descrip{
+  height: 42vh;
+  width: 525px;
+  margin-left: 300px;
+}
+
+.parrafo-descripcion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-left: 200px;
+  text-align: justify;
+  width: 63%;
+}
+
+}
+
+@media(min-width:1400px){
+ 
+ body{
+  overflow-x: hidden;
+ }
+
+  .hamburger{
+   position: relative;
+   left: 100px!important;
+  }
+ 
+  .header-titulo {
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.span-titulo{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.carrito {
+    position: relative;
+    margin-left: 1100px; /* Ajusta el margen izquierdo del carrito */
+}
+
+.iconCarrito {
+    font-size: 22px;
+}
+
+.iconUser {
+    font-size: 30px !important;
+    margin-left: 10px;
+}
+
+.link-iconoUser{
+    text-decoration: none;
+    color: black;
+}
+/**estilos para el carrousel */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 1400px; /* Establece un ancho máximo para el carousel */
+  margin: 0 auto; /* Centra el carousel horizontalmente en la página */
+}
+
+/* Resto del CSS sin cambios */
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.arrow-next,
+.arrow-prevent {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+/**estilos para el carrousel */
+
+/**titulo de la pagina y subtitulo */
+.titulo-refran{
+  background-color:#019382;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.titulo-refran h1 {
+    color: white;
+    font-size: 24px; /* Tamaño de fuente ajustado */
+  }
+
+.subtitulo-sitio{
+    position: relative;
+    top: -10px;
+    color:white;
+    font-style: italic;
+    font-family: var(--fuenteSecundaria);
+    font-size: 20px;
+}
+
+.hr{
+  display: none;
+}
+/**titulo de la pagina y subtitulo */
+
+/**section-rapiBuy */
+.section-rapiBuy img{
+  width: 12vw;
+  height: 12vw;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+/**section-rapiBuy */
+/**pasillos titulo */
+.div-titulo-pasillo {
+  text-align: center;
+  background-color: #019382; /* Fondo rojo */
+  width: 88%; /* Ancho del div al 100% */
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 10px;
+}
+.titulo-pasillo {
+  font-family: var(--fuenteSecundaria);
+  color: white; /* Texto blanco */
+  font-size: 2em; /* Tamaño del texto */
+  margin: 0 auto; /* Elimina el margen por defecto */
+  padding: 2px; /* Añade un poco de espacio alrededor del texto */
+}
+/**pasillos titulo */
+/**caja pasillo */
+.caja-pasillo {
+  margin-left: 20px;
+  height: 100px;
+  margin-bottom: 15px;
+  overflow: hidden; /* Para ocultar cualquier desbordamiento de la imagen */
+}
+.caja-pasillo img {
+  width: 100px; /* Establecer el ancho de la imagen al 100% del contenedor */
+  height: 100px; /* Establecer la altura de la imagen al 100% del contenedor */
+  object-fit: cover; /* Para ajustar la imagen al contenedor */
+  display: block; /* Para asegurar que la imagen no tenga ningún espacio adicional */
+  margin-left: 70%;
+  margin-top: 2px;
+}
+.caja-pasillo p{
+margin-left: 150px;
+margin-top: -10px;
+}
+/**caja pasillo */
+
+/** frescos */
+
+.div-especialista-frescso {
+  text-align: center;
+  background-color: #503803; /* Fondo rojo */
+  width: 88%; /* Ancho del div al 100% */
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 10px;
+}
+.especialista-en-frescos{
+  font-family: var(--fuenteSecundaria);
+  color: #E8F1F6; /* Texto blanco */
+  font-size: 1.5rem; /* Tamaño del texto */
+  margin: 0 auto; /* Elimina el margen por defecto */
+  padding: 10px; /* Añade un poco de espacio alrededor del texto */
+}
+.div-frescos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.div-frescos img{
+  width: 30vw;
+  height: 10vw;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.div-frescos img {
+  transition: width 0.3s ease, height 0.3s ease; /* Agrega una transición suave */
+}
+
+.div-frescos img:hover {
+  width: 110%; /* Aumenta el ancho al 110% */
+  height: auto; /* Autoajusta la altura */
+}
+
+.div-descripcion{
+  padding: 10px;
+  width: 86%;
+  margin: 0 auto;
+  background-color: var(--colornumero1);
+}
+
+
+.subtitulo-descripcion{
+  font-family: var(--fuenteSecundaria);
+  font-size: 1.3rem;
+  color:black;
+  margin-left: 500px;
+  margin-top: 8px;
+  width: 75%;
+}
+
+.img-descrip{
+  height: 42vh;
+  width: 42vh;
+  margin-left: 490px;
+}
+
+.parrafo-descripcion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-left: 240px;
+  text-align: justify;
+  width: 70%;
+}
+/**descripcion */
+
+/**Tenemos tus marcas favoritas */
+.div-tus-marcaFavoritas {
+  text-align: center;
+  background-color: #C70176; /* Fondo rojo */
+  width: 88%; /* Ancho del div al 100% */
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 10px;
+}
+.tus-marcas-favoritas{
+  font-family: var(--fuenteSecundaria);
+  color: #E8F1F6; /* Texto blanco */
+  font-size: 1.5em; /* Tamaño del texto */
+  margin: 0 auto; /* Elimina el margen por defecto */
+  padding: 10px; /* Añade un poco de espacio alrededor del texto */
+}
+/**tenemos tus marcas favoritas*/
+
+
+/**servicio */
+.section-servicio h4{
+  font-family: var(--fuenteSecundaria);
+  font-size: 20px;
+}
+
+.section-servicio p{
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/**servicio */
+
+/**footer */
+/* Estilo para el logo en el footer */
+.logo-footer img {
+  width: 200px; /* Tamaño específico para el ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilo para los párrafos del footer */
+.footer p {
+  color: black;
+  font-weight: bold;
+  margin: 10px 0; 
+  line-height: 1.5; 
+  font-size: 18px;
+  font-family: var(--fuenteSecundaria);
+}
+
+/** Todo lo puedo en Cristo que me Fortalece*/
+
+}
+
