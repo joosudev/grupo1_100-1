@@ -1014,14 +1014,6 @@ margin-top: -10px;
   margin-top: 20px;
 }
 
-.div-frescos img {
-  transition: width 0.3s ease, height 0.3s ease; /* Agrega una transición suave */
-}
-
-.div-frescos img:hover {
-  width: 110%; /* Aumenta el ancho al 110% */
-  height: auto; /* Autoajusta la altura */
-}
 
 .div-descripcion{
   padding: 10px;
@@ -1112,4 +1104,3 @@ margin-top: -10px;
 /** Todo lo puedo en Cristo que me Fortalece*/
 
 }
-
