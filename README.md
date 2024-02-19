@@ -20,6 +20,11 @@ Presentamos una función revolucionaria en nuestro sitio web: la creación y ges
 - Ruando Deane: Licenciado en comercio internacional y logística, entre mis aficiones esta jugar basketball e instruirme sobre la economía internacional, en este moento curso una carrer ade ingenieria industrial comercial, en mis ratos libres leo novelas de fantasia medieval y ciencia ficción.
 - Vladimir Willians: Licdo. en Informatica,como hobbit me gusta leer, ver tv, hacer deporte, como fortaleza tengo el esforzarme y exigirme para dar lo mejor de mi siempre, de la programación me gusta todo.
 
+## | Video representación del Sitio Web 📽️
+[screen-capture.webm](https://github.com/Devjow/grupo1_100-1/assets/47118243/e8b8431f-aefd-42fb-aba6-b2d9c2a9c419)
+
+[screen-capture (1).webm](https://github.com/Devjow/grupo1_100-1/assets/47118243/d3c7b115-e14a-4983-a13f-cf55358c2127)
+
 ## | Sitios Web de Referencia 🌐
 1. [Walmart](https://www.walmart.com/)
 2. [SuperUnico](https://superunico.com/)
