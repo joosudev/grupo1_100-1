@@ -8,25 +8,27 @@
 }
 
 body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background-color: #c9d6ff; /**Color de Fondo */
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff); /** grandient de fondo */
     margin-left:30%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; /**flex-direction colum para colocar estilo en columna */
     height: 100vh;
 }
 
 .container{
-    background-color: #fff;
+    background-color: #fff; /**color de fondo del container */
+    margin: 0 auto;
     border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); /**sombra */
     position: relative;
     overflow: hidden;
     width: 768px;
     max-width: 100%;
     min-height: 480px;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .container p{
@@ -41,15 +43,15 @@ body{
 }
 
 .container a{
-    color: #333;
+    color: #333; /**color de los enlaces */
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button{
-    background-color: #019382;
-    color: #fff;
+    background-color: #019382; /**color de boton */
+    color: #fff; /**letra de color blanco */
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -84,7 +86,7 @@ body{
     font-size: 13px;
     border-radius: 8px;
     width: 100%;
-    outline: none;
+    outline: none; /**ocultando linea del input */
 }
 
 .form-container{
@@ -171,7 +173,7 @@ body{
 .toggle{
     background-color: #019382;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #019382);
+    background: linear-gradient(to right, #019382, #019382);
     color: #fff;
     position: relative;
     left: -100%;
@@ -216,3 +218,39 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+
+
+/* Estilo para el footer */
+.footer {
+    background-color: #019382;
+    padding: 20px; /* Padding fijo en píxeles */
+    color: #fff; /* Texto en color blanco para contraste */
+    text-align: center;
+  }
+  
+  /* Estilo para el logo en el footer */
+  .logo-footer img {
+    width: 100px; /* Tamaño específico para el ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  /* Estilo para los párrafos del footer */
+  .footer p {
+    color: black;
+    font-weight: bold;
+    margin: 10px 0; 
+    line-height: 1.5; 
+    font-size: 16px; 
+  }
+  
+  /* Estilo para el enlace del correo */
+  .footer a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Quitamos subrayado */
+  }
+  
+  /* Estilo para el enlace del correo al pasar el ratón */
+  .footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }

@@ -5,10 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/menustyle2.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+    <!--header-->
+    <header>
+        <div class="div-header">
+        <!--Menu hamburguesa-->
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+                <li><a href="#"><span>🧼</span> Aseo Personal</a></li>
+                <li><a href="#"><span>🧴</span> Bebidas</a></li>
+                <li><a href="#"><span>🥩</span> Carnes</a></li>
+                <li><a href="#"><span>🍅</span> Condimentos</a></li>
+                <li><a href="#"><span>🥫</span> Enlatados</a></li>
+                <li><a href="#"><span>🧂</span> Especies</a></li>
+                <li><a href="#"><span>🍎</span> Frutas</a></li>
+                <li><a href="#"><span>🌾</span> Granos</a></li>
+                <li><a href="#"><span>🥛</span> Lácteos</a></li>
+                <li><a href="#"><span>🧹</span> Limpiezas</a></li>
+                <li><a href="#"><span>🐶</span> Mascotas</a></li>
+                <li><a href="#"><span>🧻</span> Papeles</a></li>
+                <li><a href="#"><span>🥕</span> Vegetales</a></li>
+                <li><a href="#"><span>🥞</span> Víveres</a></li>
+            </ul>
+        </nav>                     
+        <!--Menu hamburguesa-->
+        <!--contenido del Header-->
+        <div class="header-content">
+            <h3 class="header-titulo">Super <span class="span-titulo">100-1</span></h3>
+            <div class="carrito">
+                <i class="fa-solid fa-cart-shopping iconCarrito"></i>
+                <span class="contador">0</span>
+                <span class="total totalnone">$0.00</span>
+            </div>
+            <a class="link-iconoUser" href="./pages/login.html">
+              <span class="material-symbols-outlined iconUser">
+                person
+              </span>
+            </a>
+         </div>
+       </div>
+    <!--contenido del Header-->
+    </header>
+    <!--header-->
+
 <div class="container" id="container">
     <div class="form-container sign-up">
         <form>
@@ -57,6 +107,39 @@
         </div>
     </div>
 </div>
-    <script src="/js/login.js"></script>
+
+  <!--footer-->
+  <footer class="footer">
+    <!--div-logoFooter-->
+  <div class="logo-footer">
+    <img src="../img/logo-img.png" alt="logo Footer" />
+  </div>
+  <!--div-logoFooter-->
+  <div class="footer-info">
+     <p class="parrafo-footer-100-1">
+        Supermercado 100-1 – El supermercado online de Panamá
+     </p>
+     <p class="parrafo-footer-descriptivo-100-1">
+        Haz tus compras online para básicos del hogar, limpieza, cocina, baños, bebé y mascotas.
+     </p>
+     <p class="parrafo-footer-info">
+        <strog>Whatsapp:</strog>+507 6665-5165 <br>
+        <strog>Correo:</strog>ejemplo@gmail.com<br>
+        <strog>Ubicado en todo Panamá Cerca de Tí<br>
+     </p>
+     <p class="parrafo-footer-superFuturo">
+        ¡Bienvenido al supermercado del futuro!
+     </p>
+     <p class="parrafo-footer-hecho">
+        🇵🇦 Fundado en Panamá con ♥️
+     </p>
+     <p class="parrafo-derechoAutor">&copy;Supemercado 100-1. Todos los derechos reservados.</p>
+  </div>
+</footer>
+  <!--footer-->
+
+
+    <script src="../js/login.js"></script>
+    <script src="../js/meuH.js"></script>
 </body>
 </html>

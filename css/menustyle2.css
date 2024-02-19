@@ -1,0 +1,212 @@
+:root {
+    --colornumero1: #019382;
+    --colornumero2: #4fd190;
+    --colornumero3: #ffb762;
+    --colornumero4: #ff9459;
+    --fuentePrincipal:"Roboto", "Arial", sans-serif;
+    --fuenteSecundaria:"Just Me Again Down Here", cursive;
+  }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Just+Me+Again+Down+Here&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger {
+    position: relative;
+    background-color: transparent;
+    left: 300px;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition: transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    z-index: 1002;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hamburger.is-active {
+    background-color: none;
+}
+
+._layer {
+    background: #000000;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    width: 28px;
+    height: 4px;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+
+.hamburger:hover .-top {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.hamburger:hover .-bottom {
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.hamburger.is-active .-top {
+    -webkit-transform: translateY(200%) rotate(45deg) !important;
+    -ms-transform: translateY(200%) rotate(45deg) !important;
+    transform: translateY(200%) rotate(45deg) !important;
+}
+
+.hamburger.is-active .-mid {
+    opacity: 0;
+}
+
+.hamburger.is-active .-bottom {
+    -webkit-transform: translateY(-200%) rotate(135deg) !important;
+    -ms-transform: translateY(-200%) rotate(135deg) !important;
+    transform: translateY(-200%) rotate(135deg) !important;
+}
+
+.menuppal.is_active {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.menuppal {
+    background-color: #088F87;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 100%;
+    z-index: 1001;
+}
+
+.menuppal ul {
+    margin: 20px 0 0; /* Ajusta la separación superior del primer elemento */
+    padding: 0;
+}
+
+.menuppal ul li {
+    list-style: none;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3em;
+    height: 3em;
+    color: white;
+    text-transform: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.5); /* Línea divisoria entre elementos */
+}
+
+.menuppal ul li:first-child {
+    border-top: none; /* Elimina la línea divisoria en el primer elemento */
+}
+
+.menuppal ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuppal ul li a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Agregar margen derecho a los iconos */
+.menuppal ul li a .icon {
+    margin-right: 7px; /* Ajusta el valor según sea necesario */
+}
+
+/* Transición suave para abrir y cerrar el menú */
+.menuppal {
+    transition:transform 0.35s ease;
+    -webkit-transition:transform 0.35s ease;
+    -moz-transition:transform 0.35s ease;
+    -ms-transition:transform 0.35s ease;
+    -o-transition:transform 0.35s ease;
+}
+
+
+/**header */
+
+.div-header{
+    background-color: var(--colornumero1);
+    padding: -80px;
+}
+
+.totalnone{
+    display: none; /**ocultando el total alado del carrito */
+}
+
+/* contenido del header */
+.header-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -26px;
+    margin-left: 18%;
+}
+
+.header-titulo {
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 100px;
+}
+
+.span-titulo{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.carrito {
+    position: relative;
+    margin-left:700px; /* Ajusta el margen izquierdo del carrito */
+}
+
+.iconCarrito {
+    font-size: 22px;
+}
+
+.iconUser {
+    font-size: 30px !important;
+    margin-left: 10px;
+}
+
+.link-iconoUser{
+    text-decoration: none;
+    color: black;
+}
+
+.contador {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #333;
+    color: white;
+    font-size: 12px; /* Ajusta el tamaño del contador */
+    padding: 3px 6px; /* Ajusta el espaciado del contador */
+    border-radius: 50%;
+}
+/**header */
+
