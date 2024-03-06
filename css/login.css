@@ -17,6 +17,32 @@ body{
     height: 100vh;
 }
 
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+input[type="text"], input[type="email"], input[type="password"], button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#password-strength {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.debil {
+    color: red;
+}
+.intermedio {
+    color: orange;
+}
+.fuerte {
+    color: green;
+}
+
 .container{
     background-color: #fff; /**color de fondo del container */
     margin: 0 auto;
@@ -219,7 +245,14 @@ body{
     transform: translateX(200%);
 }
 
-
+ /* Estilos para la barra de nivel de contraseña */
+ .password-strength-meter {
+    margin-top: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
 /* Estilo para el footer */
 .footer {
